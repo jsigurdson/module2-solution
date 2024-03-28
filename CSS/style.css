@@ -24,8 +24,8 @@ h1 {
   background-color: rgb(153, 153, 153); /* Light gray */
   float: left;
   width: 30%;
-  padding: 40px 20px 20px 20px;  
-  margin: 0 5px 20px 0;
+  padding: 0 20px 20px 20px;  
+  margin: 0 5px 20px 5px;
 }
 
 #m1_title, #m2_title, #m3_title {
@@ -37,7 +37,7 @@ h1 {
   border: 1px solid black;
   text-align: center;
   padding: 5px;
-  margin:  0 0 0; 
+  margin:  0 0 40px 0; 
   }
 
 #m1_title {
