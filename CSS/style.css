@@ -15,9 +15,8 @@ h1 {
   padding: 0 0 20px 0;
 }
 
-div {
+.container {
   width: 100%;
-  background-color: rgb(153, 153, 0);  
 }
 
 #m1, #m2, #m3  {
