@@ -8,7 +8,6 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
-   background-color: lightgreen;  
 }
 
 h1 {
@@ -46,12 +45,10 @@ div {
 #m1_title {
   background-color: rgb(213, 153, 152); /* Light red */
 }  
-
 #m2_title {
   color: white;
   background-color: rgb(193, 72, 66); /* Red brown */
 }
-
 #m3_title {
   background-color: rgb(227, 210, 152); /* Light yellow */
 }
@@ -61,11 +58,7 @@ div {
   #m1, #m2, #m3 {
     width: 33%;
   }
-  body {
-    background-color: orange;
-  }
 }
-
 /* Tablet Styles (screens between 768px and 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
   #m1, #m2 {
@@ -74,18 +67,11 @@ div {
   #m3 {
     width: 50%;
   }
-  body {
-    background-color: blue;
-  }
 }
-
 /* Mobile Styles (screens smaller than 768px) */
 @media (max-width: 767px) {
   /* Stack elements vertically for mobile screens */
   #m1, #m2, #m3 {
     width: 100%;
-  }
-  body {
-    background-color: green;
   }
 }  
