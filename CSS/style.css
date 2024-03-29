@@ -13,12 +13,17 @@ h1 {
   text-align: center;
   padding: 0 0 20px 0;
 }
+
 .container {
+  display: flex;
   width: 100%;
 }
 
+/*.container { width: 100%; }   Original */
+
 #m1, #m2, #m3  {
-  position: relative;
+  /*  position: relative;  Original */
+  flex: 1;               /* NEW */
   border: 1px solid black;
   background-color: rgb(153, 153, 153); /* Light gray */
   float: left;
